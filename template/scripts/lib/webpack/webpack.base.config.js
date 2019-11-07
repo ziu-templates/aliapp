@@ -110,7 +110,7 @@ module.exports = function() {
             name: 'commons/vendor',
             chunks: 'initial',
             minSize: 0,
-            maxSize: 300 * 1000,
+            // maxSize: 300 * 1000, // 支付宝暂时不支持
             minChunks: 1,
           },
           commons: {
