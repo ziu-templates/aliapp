@@ -1,0 +1,33 @@
+{
+    "pages":[
+        "pages/index/index"
+    ],
+    "networkTimeout": {
+        "request": 10000
+    },
+    "window":{
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "{{ name }}",
+        "navigationBarTextStyle":"black"
+    },
+    {{#tab}}
+    "tabBar": {
+        "items": [
+            {
+                "pagePath": "pages/index/index",
+                "icon": "./assets/imgs/tab.png",
+                "activeIcon": "./assets/imgs/tab.png",
+                "name": "tab1"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "icon": "./assets/imgs/tab.png",
+                "activeIcon": "./assets/imgs/tab.png",
+                "name": "tab2"
+            }
+        ]
+    },
+    {{/tab}}
+    "debug": true
+}
