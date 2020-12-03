@@ -90,6 +90,7 @@
         "stylelint-webpack-plugin": "^2.1.1",
         "terser-webpack-plugin": "^1.2.3",
         "url-loader": "^1.1.2",
+        "lodash.merge": "^4.6.2",
         {{#performance}}
         "conventional-changelog-cli": "^2.0.31",
         "git-cz": "^3.3.0",
